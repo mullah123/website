@@ -85,7 +85,8 @@ h2{
       height: auto;
       padding: 20px;
     }
-	.gallery {
+
+    .gallery {
       justify-content: center;
     }
 
@@ -93,5 +94,4 @@ h2{
       width: calc(50% - 8px);
       margin-bottom: 16px;
     }
-	
   }
