@@ -83,7 +83,7 @@ h3
   height: auto;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   /* Adjust the breakpoint as needed */
 
   /* Mobile font sizes */
