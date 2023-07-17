@@ -9,6 +9,7 @@ header
 	top:0;
 }	
 
+
 ul
 {
 	display:flex;
@@ -25,7 +26,9 @@ li
 
 h1
 {
+	color:White;
 	margin-left:50px;
+	font-size: 50px; /* Desktop font size */
 }
 
 .gallery
@@ -39,6 +42,7 @@ h1
   margin: 0 auto;
   padding: 20px 10px;
   margin-left:25px;
+  
 }
 
 
@@ -54,7 +58,7 @@ img {
 	  align-items:center;
 	  text-align:center;
 	  display:flex;
-	  font-size:20px;
+	  font-size: 20px; /* Desktop font size */
 	  font-weight:bold;
 	  font-family:verdana;
   }
@@ -70,3 +74,15 @@ h2{
 
 }
 
+@media (max-width: 768px) {
+    /* Adjust the breakpoint as needed */
+    h1 {
+      font-size: 24px; /* Mobile font size */
+    }
+
+    .about {
+      font-size: 14px; /* Mobile font size */
+      height: auto;
+      padding: 20px;
+    }
+  }
