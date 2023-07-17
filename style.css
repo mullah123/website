@@ -97,11 +97,12 @@ h3
   }
 
   .gallery {
-    justify-content: center;
+    justify-content: space-between;
+    gap: 8px;
   }
 
   .gallery img {
-    flex-basis: 45%; /* Adjust the width as desired */
+    flex-basis: calc(50% - 8px);
     margin-bottom: 16px;
   }
 }
