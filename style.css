@@ -73,25 +73,30 @@ h2{
 	font-family:verdana;
 
 }
+h3
+{
+	font-family:verdana;
+}
 
 @media (max-width: 768px) {
-    /* Adjust the breakpoint as needed */
-    h1 {
-      font-size: 24px; /* Mobile font size */
-    }
+  /* Adjust the breakpoint as needed */
 
-    .about {
-      font-size: 14px; /* Mobile font size */
-      height: auto;
-      padding: 20px;
-    }
-
-    .gallery {
-      justify-content: center;
-    }
-
-    .gallery img {
-      width: calc(50% - 8px);
-      margin-bottom: 16px;
-    }
+  /* Mobile font sizes */
+  h1 {
+    font-size: 24px;
   }
+  .about {
+    font-size: 14px;
+    height: auto;
+    padding: 20px;
+  }
+
+  .gallery {
+    justify-content: center;
+  }
+
+  .gallery img {
+    width: calc(50% - 8px);
+    margin-bottom: 16px;
+  }
+}
