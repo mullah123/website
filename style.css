@@ -83,11 +83,16 @@ h3 {
   .gallery {
     justify-content: center;
     gap: 8px;
-    padding: 0 8px; /* Add padding to align with container */
   }
 
   .gallery img {
     flex-basis: calc(50% - 8px);
     margin-bottom: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .gallery img {
+    flex-basis: calc(100% - 8px);
   }
 }
