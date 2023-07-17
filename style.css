@@ -85,4 +85,13 @@ h2{
       height: auto;
       padding: 20px;
     }
+	.gallery {
+      justify-content: center;
+    }
+
+    .gallery img {
+      width: calc(50% - 8px);
+      margin-bottom: 16px;
+    }
+	
   }
