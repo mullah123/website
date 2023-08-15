@@ -58,7 +58,7 @@ header {
   {
 	  text-align:center;
 	  font-family:verdana;
-	  color:blue;
+	  color:green;
 	 
   }
   
@@ -87,27 +87,22 @@ header {
     justify-content: space-between;
   }
   
-  body {
-    background-color: red;
+  @media (max-width: 500px) { /* targeting screens up to 500px wide to cover most iPhones */
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .gallery a, .gallery img {
+    width: 48%; /* Set it slightly less than 50% to give some margin */
+    box-sizing: border-box; /* This ensures padding or borders are included in the set width */
+  }
+
+  .gallery img {
+    max-width: 100%; /* This ensures the image scales down if needed */
+  }
 }
   
   
-  * Portrait */
-@media screen 
-  and (device-width: 428px) 
-  and (device-height: 926px) 
-  and (-webkit-device-pixel-ratio: 3) {
-
-  /* Your CSS styles for iPhone 13 Pro Max in portrait mode go here */
-
-}
-
-/* Landscape */
-@media screen 
-  and (device-width: 926px) 
-  and (device-height: 428px) 
-  and (-webkit-device-pixel-ratio: 3) {
-
-  /* Your CSS styles for iPhone 13 Pro Max in landscape mode go here */
-
-}
+  
