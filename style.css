@@ -58,6 +58,7 @@ header {
   {
 	  text-align:center;
 	  font-family:verdana;
+	  color:red;
 	 
   }
   
@@ -85,3 +86,5 @@ header {
     flex-wrap: wrap;
     justify-content: space-between;
   }
+  
+  
