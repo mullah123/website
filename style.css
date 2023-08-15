@@ -87,4 +87,27 @@ header {
     justify-content: space-between;
   }
   
+  body {
+    background-color: red;
+}
   
+  
+  * Portrait */
+@media screen 
+  and (device-width: 428px) 
+  and (device-height: 926px) 
+  and (-webkit-device-pixel-ratio: 3) {
+
+  /* Your CSS styles for iPhone 13 Pro Max in portrait mode go here */
+
+}
+
+/* Landscape */
+@media screen 
+  and (device-width: 926px) 
+  and (device-height: 428px) 
+  and (-webkit-device-pixel-ratio: 3) {
+
+  /* Your CSS styles for iPhone 13 Pro Max in landscape mode go here */
+
+}
