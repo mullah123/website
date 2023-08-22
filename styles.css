@@ -2,17 +2,26 @@ ul{
     display:flex;
     justify-content: space-evenly;
     list-style:none;
+    color:white;
+    text-decoration: ;
+    font-weight: 900;
+    font-size:18;
+    font-family: cambria;
+    gap: 30px;
+
    
 }
 
 header{
     display:flex;
-    background-color:lightblue;
+    background-color:pink;
     justify-content:space-between;
     align-items: center;
     position:fixed;
     width:100%;
+    height:12%;
     top:0;
+
 
     
 }
@@ -26,6 +35,9 @@ nav {
   h1{
     text-align: center;
     padding-left:10;
+    color:white;
+    font-family: cambria;
+
     
   }
 
@@ -40,7 +52,7 @@ nav {
 
   body{
     margin:0;
-    padding-top: 81px;
+    padding-top: 100px;
   }
 
   .gallery{
