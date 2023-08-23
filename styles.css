@@ -6,7 +6,8 @@ ul{
     font-size:130%;
     font-family: arial;
     gap: %;
-    width:100%
+    width:100%;
+    
 
 }
 
@@ -26,11 +27,12 @@ header{
 }
 
 .minibar{
-    background-color: awhitequa;
+    background-color: white;
     display: flex;
-    justify-content: center;
+    justify-content:space-evenly;
     height:12%;
     margin-top:-113px;
+   
     
 }
 
